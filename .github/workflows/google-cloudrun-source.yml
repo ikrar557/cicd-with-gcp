@@ -90,7 +90,7 @@ jobs:
           # NOTE: If required, update to the appropriate source folder
           source: ./
           allow-unauthenticated: true
-          env-vars: PORT=80
+          flags: '--port=80'
 
       # If required, use the Cloud Run url output in later steps
       - name: Show Output
